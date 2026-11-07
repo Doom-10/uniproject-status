@@ -21,7 +21,7 @@ form.addEventListener("submit", (event) => {
   }
   const text = ["Здравствуйте! Заявка с временной страницы UniProject.", topic.value && "Направление: " + topic.value, "", value].filter((line, index) => line || index === 2).join("\n");
   draftText.value = text;
-  email.href = "mailto:info@uniproject.top?subject=" + encodeURIComponent("Заявка в продюсерский центр UniProject") + "&body=" + encodeURIComponent(text);
+  email.href = "mailto:doom10cfera@yandex.ru?subject=" + encodeURIComponent("Заявка в продюсерский центр UniProject") + "&body=" + encodeURIComponent(text);
   draft.hidden = false;
   feedback.textContent = instructions;
   draftText.focus();
