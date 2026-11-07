@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Продюсерский центр UniProject в Санкт-Петербурге</title>
+  <meta name="description" content="UniProject - продюсерский центр Дмитрия Дума в Санкт-Петербурге. Запись музыки, видеопроизводство и продвижение артистов. Сайт временно обновляется, команда на связи.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#151515">
+  <link rel="canonical" href="https://uniproject.top/">
+  <link rel="icon" type="image/png" href="./logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="UniProject">
+  <meta property="og:title" content="Продюсерский центр UniProject">
+  <meta property="og:description" content="Сайт временно обновляется. Расскажите нам о вашем музыкальном проекте.">
+  <meta property="og:url" content="https://uniproject.top/">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"UniProject","alternateName":"Продюсерский центр Дмитрия Дума","url":"https://uniproject.top/","logo":"https://uniproject.top/logo.png","telephone":"+7-812-507-65-35","email":"info@uniproject.top","address":{"@type":"PostalAddress","addressLocality":"Санкт-Петербург","addressCountry":"RU"}}
+  </script>
+  <link rel="stylesheet" href="./site.css">
+  <script src="./site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#request">Перейти к заявке</a>
+  <header class="wrap header">
+    <a class="brand" href="./" aria-label="UniProject, главная">
+      <img src="./logo.png" alt="" width="52" height="52">
+      <span>Uni<span class="brand-project">Project</span><small>ПРОДЮСЕРСКИЙ ЦЕНТР</small></span>
+    </a>
+    <a class="header-phone" href="tel:+78125076535">+7 (812) 507-65-35 <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main class="wrap main">
+    <section class="intro" aria-labelledby="title">
+      <div class="status"><span></span> ВРЕМЕННАЯ СТРАНИЦА</div>
+      <h1 id="title">Сайт временно<br>обновляется<span>.</span></h1>
+      <p class="intro-copy">Команда UniProject на связи. Расскажите о вашем проекте или задайте вопрос, пока мы восстанавливаем основной сайт.</p>
+      <div class="wave" aria-hidden="true">
+        <svg viewBox="0 0 520 112" fill="none" preserveAspectRatio="xMidYMid meet">
+          <defs><linearGradient id="sound" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#ee2a6c" stop-opacity=".25"/><stop offset=".48" stop-color="#ef424c"/><stop offset="1" stop-color="#ee2a6c" stop-opacity=".1"/></linearGradient></defs>
+          <path d="M4 55v2m12-6v10m12-7v4m12-10v16m12-23v30m12-36v42m12-29v16m12-25v34m12-45v56m12-68v80m12-60v40m12-50v60m12-72v84m12-61v38m12-50v62m12-78v94m12-63v32m12-45v58m12-64v70m12-88v106m12-64v22m12-47v72m12-80v88m12-67v46m12-54v62m12-43v24m12-37v50m12-60v70m12-50v30m12-36v42m12-28v14m12-25v36m12-40v44m12-27v10m12-16v22m12-20v18m12-12v6m12-10v14m12-11v8m12-7v6m12-5v4m12-5v6m12-4v2m12-2v2" stroke="url(#sound)" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <p class="studio-line">Звукозапись <span>•</span> Видеопроизводство <span>•</span> Продвижение артистов</p>
+      <p class="city">Санкт-Петербург</p>
+    </section>
+
+    <section class="card" id="request" aria-labelledby="request-title">
+      <div class="card-kicker">СВЯЗЬ С КОМАНДОЙ</div>
+      <h2 id="request-title">Расскажите о проекте</h2>
+      <p class="form-intro">Подготовьте заявку и отправьте ее в удобном канале.</p>
+      <form id="request-form" hidden>
+        <label for="topic">Что вас интересует</label>
+        <select id="topic" name="topic">
+          <option value="">Выберите направление</option>
+          <option>Запись и производство музыки</option>
+          <option>Съемка и монтаж видео</option>
+          <option>Продвижение артиста</option>
+          <option>Обучение музыке</option>
+          <option>Другой вопрос</option>
+        </select>
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" rows="4" required maxlength="800" placeholder="Например, хочу записать песню и снять клип"></textarea>
+        <button class="primary" type="submit">Подготовить заявку <span aria-hidden="true">↗</span></button>
+      </form>
+      <div id="draft" class="draft" hidden>
+        <label for="draft-text">Текст заявки</label>
+        <textarea id="draft-text" rows="4" readonly></textarea>
+        <div class="draft-actions">
+          <button type="button" class="outline" id="copy-draft">Скопировать текст</button>
+          <a class="outline" id="send-email" href="mailto:info@uniproject.top">Открыть письмо</a>
+          <a class="outline" href="https://t.me/UniProjectTop_Bot" target="_blank" rel="noopener noreferrer">Открыть Telegram</a>
+        </div>
+        <p id="draft-feedback" role="status" aria-live="polite">Скопируйте текст, вставьте его в чат и отправьте. Или отправьте подготовленное письмо.</p>
+      </div>
+      <div class="direct">
+        <span>Написать напрямую</span>
+        <div class="channels">
+          <a href="https://t.me/UniProjectTop_Bot" target="_blank" rel="noopener noreferrer">Telegram <span aria-hidden="true">↗</span></a>
+          <a href="https://max.ru/u/f9LHodD0cOLL-_XJecs7XMrP1gvgZWNpG_5zzpKZjX4f5OIpQZL08xBtegE" target="_blank" rel="noopener noreferrer">MAX <span aria-hidden="true">↗</span></a>
+          <a href="mailto:info@uniproject.top">Почта <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© UniProject · Продюсерский центр Дмитрия Дума</span>
+    <a href="mailto:info@uniproject.top">info@uniproject.top</a>
+  </footer>
+</body>
+</html>
